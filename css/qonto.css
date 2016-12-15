@@ -4,6 +4,7 @@ div#sidebar {
   background-color: #40474f;
   padding: 0; }
   div#sidebar div.title {
+    height: 75px;
     background-color: #383d44;
     text-align: center; }
     div#sidebar div.title h1 {
@@ -19,7 +20,27 @@ div#sidebar {
         background-color: #9cc1cc; }
     div#sidebar nav.side_navigation a.btn-large {
       background-color: transparent !important;
-      border-color: #9cc1cc;
+      border: 2px solid #9cc1cc;
       color: #9cc1cc;
       text-transform: uppercase;
       border-radius: 5px; }
+
+/* Content */
+div#content {
+  padding: 0; }
+  div#content div.top {
+    height: 75px;
+    background-color: #e4b34b; }
+  div#content div.container table.bordered thead {
+    font-weigth: 300; }
+  div#content div.container table.bordered tbody tr:nth-child(-n+3) {
+    font-weight: 500; }
+  div#content div.container table.bordered tbody tr td.down i.material-icons {
+    color: #da6962; }
+  div#content div.container table.bordered tbody tr td.up i.material-icons {
+    color: #9ac4d7; }
+
+/* Hack CSS for material icon */
+i.hack_css {
+  transform: rotate(-135deg) scaleX(-1);
+  color: #40474f; }

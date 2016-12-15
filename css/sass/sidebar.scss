@@ -5,6 +5,7 @@ div#sidebar
     padding:0;
 
     div.title {
+        height:75px;
         background-color: $greyDark;
         text-align: center;
         h1 {
@@ -29,7 +30,7 @@ div#sidebar
 
         a.btn-large {
             background-color: transparent !important;
-            border-color: $greyBlue;
+            border:2px solid $greyBlue;
             color: $greyBlue;
             text-transform: uppercase;
             border-radius: 5px;
