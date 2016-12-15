@@ -1,0 +1,25 @@
+/* Sidebar */
+div#sidebar {
+  color: white;
+  background-color: #40474f;
+  padding: 0; }
+  div#sidebar div.title {
+    background-color: #383d44;
+    text-align: center; }
+    div#sidebar div.title h1 {
+      padding: 0;
+      margin: 0; }
+  div#sidebar nav.side_navigation {
+    background-color: #40474f;
+    height: auto; }
+    div#sidebar nav.side_navigation ul li {
+      width: 100%; }
+      div#sidebar nav.side_navigation ul li.separator {
+        width: 2px;
+        background-color: #9cc1cc; }
+    div#sidebar nav.side_navigation a.btn-large {
+      background-color: transparent !important;
+      border-color: #9cc1cc;
+      color: #9cc1cc;
+      text-transform: uppercase;
+      border-radius: 5px; }

@@ -1,0 +1,38 @@
+div#sidebar
+{
+    color: $white;
+    background-color: $greyLight;
+    padding:0;
+
+    div.title {
+        background-color: $greyDark;
+        text-align: center;
+        h1 {
+            padding:0;
+            margin:0;
+        }
+    }
+
+    nav.side_navigation {
+        background-color: $greyLight;
+        height: auto;
+        ul {
+            li {
+                width:100%;
+
+                &.separator {
+                    width:2px;
+                    background-color: $greyBlue;
+                }
+            }
+        }
+
+        a.btn-large {
+            background-color: transparent !important;
+            border-color: $greyBlue;
+            color: $greyBlue;
+            text-transform: uppercase;
+            border-radius: 5px;
+        }
+    }
+}
