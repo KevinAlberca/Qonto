@@ -7,7 +7,7 @@ div#sidebar
     &.col.l2 {
         width: 16.6666666667%;
     }
-    
+
     color: $white;
     background-color: $greyLight;
     padding:0;
@@ -31,10 +31,10 @@ div#sidebar
         ul {
             li {
                 width:100%;
-
+                color: $greyLightLight;
                 &.separator {
-                    width:2px;
-                    background-color: $greyBlue;
+                    height:1px;
+                    background: $greyLightLight !important;
                 }
             }
         }

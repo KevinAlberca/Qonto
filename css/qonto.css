@@ -1,7 +1,7 @@
 /* Sidebar */
 div#sidebar {
   color: white;
-  background-color: #40474f;
+  background-color: #3f4650;
   padding: 0;
   position: fixed;
   top: 0;
@@ -18,13 +18,14 @@ div#sidebar {
       padding: 0;
       margin: 0; }
   div#sidebar nav.side_navigation {
-    background-color: #40474f;
+    background-color: #3f4650;
     height: auto; }
     div#sidebar nav.side_navigation ul li {
-      width: 100%; }
+      width: 100%;
+      color: #8b939c; }
       div#sidebar nav.side_navigation ul li.separator {
-        width: 2px;
-        background-color: #9cc1cc; }
+        height: 1px;
+        background: #8b939c !important; }
     div#sidebar nav.side_navigation a.btn-large {
       background-color: transparent !important;
       border: 2px solid #9cc1cc;
@@ -58,9 +59,9 @@ div#preview {
     height: 75px;
     background-color: #fcfcfc; }
   div#preview div.preview {
-    color: #40474f; }
+    color: #3f4650; }
 
 /* Hack CSS for material icon */
 i.hack_css {
   transform: rotate(-135deg) scaleX(-1);
-  color: #40474f; }
+  color: #3f4650; }
