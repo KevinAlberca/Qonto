@@ -1,0 +1,36 @@
+div#content
+{
+    padding:0;
+    div.top {
+        height:75px;
+        background-color: $gold;
+    }
+
+    div.container {
+        table.bordered {
+            thead {
+                font-weigth: 300;
+            }
+            tbody {
+                tr {
+                    &:nth-child(-n+3) {
+                        font-weight: 500;
+                    }
+
+                    td {
+                        &.down {
+                            i.material-icons {
+                                color: $redLight;
+                            }
+                        }
+                        &.up {
+                            i.material-icons {
+                                color: $blueLight;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,4 +1,15 @@
 @import "_variables";
 
 /* Sidebar */
-@import "sidebar"
+@import "sidebar";
+
+/* Content */
+@import "content";
+
+
+/* Hack CSS for material icon */
+i.hack_css {
+    transform: rotate(-135deg)
+    scaleX(-1);
+    color: $greyLight;
+}
