@@ -1,8 +1,19 @@
 div#sidebar
 {
+    &.col.s3 {
+        width: 25%;
+    }
+
+    &.col.l2 {
+        width: 16.6666666667%;
+    }
+    
     color: $white;
     background-color: $greyLight;
     padding:0;
+    position:fixed;
+    top:0;
+    bottom:0;
 
     div.title {
         height:75px;

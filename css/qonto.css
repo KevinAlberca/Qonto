@@ -2,7 +2,14 @@
 div#sidebar {
   color: white;
   background-color: #40474f;
-  padding: 0; }
+  padding: 0;
+  position: fixed;
+  top: 0;
+  bottom: 0; }
+  div#sidebar.col.s3 {
+    width: 25%; }
+  div#sidebar.col.l2 {
+    width: 16.6666666667%; }
   div#sidebar div.title {
     height: 75px;
     background-color: #383d44;
@@ -28,6 +35,10 @@ div#sidebar {
 /* Content */
 div#content {
   padding: 0; }
+  div#content.col.s6 {
+    margin-left: 25%; }
+  div#content.col.l8 {
+    margin-left: 16.6666666667%; }
   div#content div.top {
     height: 75px;
     background-color: #e4b34b; }
@@ -39,6 +50,15 @@ div#content {
     color: #da6962; }
   div#content div.container table.bordered tbody tr td.up i.material-icons {
     color: #9ac4d7; }
+
+/* Preview */
+div#preview {
+  padding: 0; }
+  div#preview div.top {
+    height: 75px;
+    background-color: #fcfcfc; }
+  div#preview div.preview {
+    color: #40474f; }
 
 /* Hack CSS for material icon */
 i.hack_css {

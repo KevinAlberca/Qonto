@@ -1,0 +1,12 @@
+div#preview
+{
+    padding:0;
+    div.top {
+        height:75px;
+        background-color: $whiteLight;
+    }
+
+    div.preview {
+        color: $greyLight;
+    }
+}
