@@ -54,12 +54,29 @@ div#content {
 
 /* Preview */
 div#preview {
-  padding: 0; }
+  padding: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0; }
+  div#preview.col.s3 {
+    width: 25%; }
+  div#preview.col.l2 {
+    width: 16.6666666667%; }
   div#preview div.top {
     height: 75px;
     background-color: #fcfcfc; }
   div#preview div.preview {
-    color: #3f4650; }
+    width: 100%;
+    position: absolute;
+    top: 75px;
+    bottom: 0;
+    color: #8b939c; }
+    div#preview div.preview p {
+      position: absolute;
+      margin: 0 auto;
+      top: 49%;
+      bottom: 49%; }
 
 /* Hack CSS for material icon */
 i.hack_css {

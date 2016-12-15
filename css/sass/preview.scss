@@ -1,12 +1,35 @@
 div#preview
 {
+    &.col.s3 {
+        width: 25%;
+    }
+
+    &.col.l2 {
+        width: 16.6666666667%;
+    }
     padding:0;
+    position:fixed;
+    right:0;
+    top:0;
+    bottom:0;
+
     div.top {
         height:75px;
         background-color: $whiteLight;
     }
 
     div.preview {
-        color: $greyLight;
+        width:100%;
+        position:absolute;
+        top:75px;
+        bottom:0;
+        color: $greyLightLight;
+
+        p {
+            position:absolute;
+            margin:0 auto;
+            top:49%;
+            bottom:49%;
+        }
     }
 }
